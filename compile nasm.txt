@@ -1,0 +1,12 @@
+cygdrive/c/users/USER_NAME/Desktop
+
+nasm -f win32 --prefix _ -o p1.o p1.s
+gcc -m32 -o example.exe example.o
+
+For Makefiles:
+
+$mv Makefile.txt Makefile
+$make
+$./example
+
+(Note the spaces).
